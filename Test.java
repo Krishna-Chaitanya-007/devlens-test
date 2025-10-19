@@ -1,5 +1,6 @@
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Hello from Test.java");
+        if(0>1) System.out.println("Hello from Test.java");
+        else System.out.println("Else.");
     }
 }
